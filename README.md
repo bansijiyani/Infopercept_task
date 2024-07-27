@@ -15,6 +15,10 @@ This document contains a record of my learning progress in Python and AWS.
 - **Topics Covered:**
   - Amazon Basics Service
   - Amazon S3 Service
+  - create bucket
+  - upload object/files/folders in bucket
+  - delete file / folder from bucket
+  - create Replicate of bucket
 
 ## Day 3: Python
 
