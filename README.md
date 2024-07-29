@@ -38,3 +38,11 @@ This document contains a record of my learning progress in Python and AWS.
   - Learning loops: `for`, `while`
   - `continue` and `break` statements
   - `pass` statement in Python
+
+## Day 7: Python
+
+- **Topics Covered:**
+  - Functions
+  - Method Overloading
+
+
