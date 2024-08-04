@@ -50,3 +50,9 @@ This document contains a record of my learning progress in Python and AWS.
   - Method Overloading
 
 
+## Day 9: Python
+
+- **Topics Covered:**
+  - Logic Development Programs
+  
+
