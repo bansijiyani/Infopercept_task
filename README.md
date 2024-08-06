@@ -43,7 +43,15 @@ This document contains a record of my learning progress in Python and AWS.
   - `continue` and `break` statements
   - `pass` statement in Python
 
+## Day 6: AWS
 
+- **Topics Covered:**
+  - What is IAM?
+  - How to create User with practical
+  - How to give access permission to user with practical
+  - How to create group with practical
+  - How to add user permissions in one group with practical
+  - How group inherit the properties and permission of user with practical
 
 ## Day 7: Python
 
@@ -53,6 +61,12 @@ This document contains a record of my learning progress in Python and AWS.
 
 
 ## Day 9: Python
+
+- **Topics Covered:**
+  - Logic Development Programs
+
+
+## Day 11: Python
 
 - **Topics Covered:**
   - Logic Development Programs
