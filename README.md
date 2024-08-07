@@ -10,7 +10,7 @@ This document contains a record of my learning progress in Python and AWS.
   - Escape characters
   - F-strings in Python
 
-## Day 2: AWS
+## Day 2: AWS-S3
 
 - **Topics Covered:**
   - Amazon Basics Service
@@ -26,7 +26,7 @@ This document contains a record of my learning progress in Python and AWS.
   - Learning control structures
   - Operators in Python
 
-## Day 4: AWS
+## Day 4: AWS-S3
 
 - **Topics Covered:**
   - Amazon Basics Service
@@ -43,7 +43,7 @@ This document contains a record of my learning progress in Python and AWS.
   - `continue` and `break` statements
   - `pass` statement in Python
 
-## Day 6: AWS
+## Day 6: AWS-IAM
 
 - **Topics Covered:**
   - What is IAM?
@@ -59,6 +59,12 @@ This document contains a record of my learning progress in Python and AWS.
   - Functions
   - Method Overloading
 
+## Day 8: AWS-Lambda
+
+- **Topics Covered:**
+- What is Lambda in AWS ?
+- How create a lambda function
+- Hands on practical
 
 ## Day 9: Python
 
