@@ -75,6 +75,8 @@ This document contains a record of my learning progress in Python and AWS.
 - **Topics Covered:**
 - What is API Gateway in AWS ?
 - How create a API
+- How to send request
+- How to deploy API
 - Hands on practical
 
 
