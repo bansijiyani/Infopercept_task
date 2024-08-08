@@ -71,8 +71,27 @@ This document contains a record of my learning progress in Python and AWS.
 - **Topics Covered:**
   - Logic Development Programs
 
+## Day 10 : AWS-API Gateway
+- **Topics Covered:**
+- What is API Gateway in AWS ?
+- How create a API
+- Hands on practical
+
 
 ## Day 11: Python
+
+- **Topics Covered:**
+  - Logic Development Programs
+
+
+
+
+## Day 13: Python
+
+- **Topics Covered:**
+  - Logic Development Programs
+
+## Day 15: Python
 
 - **Topics Covered:**
   - Logic Development Programs
