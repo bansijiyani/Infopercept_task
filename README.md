@@ -85,7 +85,11 @@ This document contains a record of my learning progress in Python and AWS.
 - **Topics Covered:**
   - Logic Development Programs
 
-
+## Day 12 : AWS-API Gateway
+- **Topics Covered:**
+- API Gateway stages and deployement
+- canary deployement
+- Check API response in Postman
 
 
 ## Day 13: Python
