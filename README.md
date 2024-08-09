@@ -97,6 +97,16 @@ This document contains a record of my learning progress in Python and AWS.
 - **Topics Covered:**
   - Logic Development Programs
 
+## Day 12 : AWS-API Gateway
+- **Topics Covered:**
+- What is DynamoDB
+- How to create a table
+- What is partition and sort key
+- How keys are work
+- How can insert,update,delete the items in table
+
+
+
 ## Day 15: Python
 
 - **Topics Covered:**
