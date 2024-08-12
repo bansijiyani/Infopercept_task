@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+</head>
+<body>
+    <table>
+        <tr>
+        <th>Name</th>
+        <th>Sem</th>
+        <th>Course name</th>
+        <th>Marks</th>
+    </tr>
+    <thead>
+        <tbody id="table"></tbody>
+    </thead>
+
+    </table>
+    
+</body>
+
+<script>
+    function res(){
+
+        fetch('https://0gkqtn4q01.execute-api.us-east-1.amazonaws.com/prod')
+        .then(response => response.json())
+        .then(data => {
+            var table = document.getElementById('table');
+
+            table.innerHTML = '';
+
+            data.forEach(rs =>
+            {
+                var total = rs.s1_marks + rs.s2_marks + rs.s3_marks + rs.s4_marks;
+                var per = total/4;
+
+                var row = `<tr>
+                <td>${rs.name}</td>
+                <td>${rs.sem}</td>
+                <td>${rs.c_name}</td>
+                <td>${rs.s1_marks}</td>
+                <td>${rs.s2_marks}</td>
+                <td>${rs.s3_marks}</td>
+                <td>${rs.s4_marks}</td>
+                <td>${total}</td>
+                <td>${per}</td>
+                </tr>`
+
+                table.innerHTML += row;
+            });
+
+        });
+        
+        
+    }
+
+    window.onload = res;
+</script>
+</html>

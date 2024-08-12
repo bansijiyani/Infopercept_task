@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script - 1</title>
+
+</head>
+<body>
+
+    <form action="">
+
+        <label for="id">ID : </label>
+        <input type="text"><br><br>
+
+        <label for="name">Name : </label>
+        <input type="text" id ="name" ><br><br>
+
+        <label for="sem">Semester : </label>
+        <select name="" id="sem">
+            <option value="Sem - 1">Sem - 1</option>
+            <option value="Sem - 2">Sem - 2</option>
+            <option value="Sem - 3">Sem - 3</option>
+        </select>
+        <br><br>
+
+        <label for="c_name">Course Name : </label>
+        
+        <select name="" id="c_name">
+            <option value="cse">CSE</option>
+            <option value="mca">MCA</option>
+            <option value="btech">Btech</option>
+        </select>
+        <br><br>
+
+
+        <label for="Marks">Marks : </label><br><br>
+
+        Sub 1 : <input type="number" id="marks1"><br>
+        Sub 2 : <input type="number" id="marks2"><br>
+        Sub 3 : <input type="number" id="marks3"><br>
+        Sub 4 : <input type="number" id="marks4"><br><br><br>
+
+        <button type="submit" onclick="submit"> <a href="page2.html"> Submit  </a></button>
+    </form>
+    
+</body>
+
+<script>
+
+    function submit(){
+    var name = document.getElementById('name');
+    var sem = document.getElementById('sem');
+    var c_name = document.getElementById('c_name');
+    var s1_marks = document.getElementById('marks1');
+    var s2_marks = document.getElementById('marks2');
+    var s3_marks = document.getElementById('marks3');
+    var s4_marks = document.getElementById('marks4');
+
+
+    var data = {
+        name : name.value,
+        sem : sem.value,
+        c_name : c_name.value,
+        marks : marks.value
+    }
+
+    fetch('https://0gkqtn4q01.execute-api.us-east-1.amazonaws.com/prod', {
+        method : 'POST',
+        headers : {
+            'Content-Type' : 'application/json'
+        },
+        body : JSON.stringify(data)
+    }).then(res => res.json())
+    .then(data => console.log(data))
+    .catch(err => console.log(err))
+
+
+}
+    
+
+</script>
+</html>
